@@ -1,0 +1,90 @@
+/* คอนเทนเนอร์หลักของเกม */
+.game-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+  transition: background-color 0.3s ease;
+  border: 3px solid #ffbc6e;
+}
+
+/* ชื่อเกม */
+.game-title {
+  font-family: 'Fredoka One', cursive;
+  color: #ff4757;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* ระดับ Level */
+.level-display {
+  font-size: 28px;
+  color: #6c5ce7;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* รูปภาพหมู */
+.pig-image {
+  border-radius: 50%;
+  transition: width 0.5s ease, height 0.5s ease;
+  border: 8px solid #ffbc6e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+/* กลุ่มปุ่ม */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* สไตล์ปุ่มอาหาร */
+.food-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ปุ่มแตงโม */
+.watermelon {
+  background-color: #00b894;
+}
+
+.watermelon:hover {
+  background-color: #019c76;
+}
+
+/* ปุ่มฟักทอง */
+.pumpkin {
+  background-color: #fdcb6e;
+}
+
+.pumpkin:hover {
+  background-color: #e1a64e;
+}
+
+/* ปุ่มหญ้า */
+.grass {
+  background-color: #00cec9;
+}
+
+.grass:hover {
+  background-color: #00a8a8;
+}
+
+/* คลิกปุ่มแล้วขนาดย่อ */
+.food-button:active {
+  transform: scale(0.95);
+}
