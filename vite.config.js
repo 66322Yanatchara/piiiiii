@@ -5,14 +5,13 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['src/main.jsx']
+      // ลบ external ออกถ้าไม่จำเป็น
     }
   },
   resolve: {
     alias: {
-      '@': '/src'
+      '@': '/src',  // ตรวจสอบเส้นทาง alias
     }
   },
-  assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png']
+  assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png']  // ตรวจสอบ assets
 })
-
