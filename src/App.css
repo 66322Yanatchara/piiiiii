@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('src/06.jpg'); /* ใส่รูปพื้นหลัง */
+  background-image: url('https://images.pexels.com/photos/4226733/pexels-photo-4226733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* ใส่รูปพื้นหลัง */
   background-size: cover; /* ทำให้รูปพื้นหลังครอบคลุมพื้นที่ทั้งหมด */
   background-position: center; /* ทำให้รูปอยู่ตรงกลาง */
   background-attachment: fixed; /* ทำให้พื้นหลังติดกับหน้าจอ */
