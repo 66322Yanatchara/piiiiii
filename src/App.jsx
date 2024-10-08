@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import './app.css'; // นำเข้าไฟล์ CSS
+import './App.css'; // นำเข้าไฟล์ CSS
+import './index.css';
 
 const PigGame = () => {
   const [level, setLevel] = useState(0);
