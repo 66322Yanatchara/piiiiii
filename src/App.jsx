@@ -21,7 +21,7 @@ const PigGame = () => {
 
   return (
     <div className="game-container">
-      <h1 className="game-title">🦛 เกมเลี้ยงหมูเด้ง 🦛</h1>
+      <h1 className="game-title">🦛 เกมเลี้ยงเลี้ยงฮิปโป 🦛</h1>
 
       {/* แสดงระดับ (Level) */}
       <p className="level-display">Level: {level}</p>
